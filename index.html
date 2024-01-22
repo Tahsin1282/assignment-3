@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hockey World</title>
+    <!-- Tailwind and Daisy UI -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google font: Manrope -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <style>
+        .font-manrope {
+            font-family: 'Manrope', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="font-manrope">
+    <header>
+        <nav class="container mx-auto px-5 lg:px-24">
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                    <!-- Hamburger Start -->
+                    <div class="dropdown lg:hidden">
+                        <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h16M4 18h7" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                            <li><a>Homepage</a></li>
+                            <li><a>About</a></li>
+                            <li><a>Page</a></li>
+                            <li><a>Blog</a></li>
+                            <li><a>Contact</a></li>
+                        </ul>
+                    </div>
+                    <!-- Hamburger End -->
+                    <!-- Logo Start -->
+                    <h2 class="text-4xl font-extrabold">Hockey<span class="text-[#FF4240]">’</span>s</h2>
+                    <!-- Logo End -->
+                </div>
+                <!-- Navbar center Start -->
+                <div class="navbar-center">
+                    <div>
+                        <ul class="hidden lg:flex gap-11">
+                            <li><a>Homepage</a></li>
+                            <li><a>About</a></li>
+                            <li><a>Page</a></li>
+                            <li><a>Blog</a></li>
+                            <li><a>Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Nav bar center End -->
+                <!-- NavBar End Start -->
+                <div class="navbar-end">
+                    <!-- Navbar Search Icon Start -->
+                    <div class="hidden md:block">
+                        <button class="btn btn-ghost btn-circle">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                            </svg>
+                        </button>
+                    </div>
+                    <!-- Navbar Search Icon End  -->
+                    <!-- Navbar Button Start -->
+                    <button class="btn btn-active bg-[#FF4240] text-xl font-bold text-white border-none px-6 py-3">Get Ticket</button>
+                    <!-- Navbar Button End -->
+                </div>
+                <!-- NavBar End End -->
+            </div>
+        </nav>
+        <!-- Navbar End -->
+        <!-- Banner Start -->
+        <div class="container mx-auto px-5 lg:px-24 mt-6 lg:mt-12 relative lg:mb-24 mb-10">
+                <!-- Carousel Start -->
+            <div class="carousel w-full rounded-2xl">
+                <!-- Slider 1 -->
+                <div id="slide1" class="carousel-item relative w-full">
+                  <img src="Images/banner 1.png" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide3" class="btn btn-circle">❮</a> 
+                    <a href="#slide2" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <!-- Slider 2 -->
+                <div id="slide2" class="carousel-item relative w-full">
+                  <img src="Images/banner 2.jpg" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide1" class="btn btn-circle">❮</a> 
+                    <a href="#slide3" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <!-- Slider 3 -->
+                <div id="slide3" class="carousel-item relative w-full">
+                  <img src="Images/banner 3.webp" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide2" class="btn btn-circle">❮</a> 
+                    <a href="#slide1" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+              </div>
+              <!-- Carousel End -->
+              <!-- Dark Black part start -->
+              <div class="lg:w-1/2 bg-black text-white p-8 rounded-2xl lg:absolute left-1/3 top-2/3">
+                <h3 class="text-2xl font-extrabold mb-4">Meet all the heroes from the field</h3>
+                <p class="text-base font-medium">Welcome to Hockey comprehensive guide to getting your child started on the exciting journey of minor hockey! Hockey is more than just a sport; it's a thrilling team activity.</p>
+              </div>
+              <!-- Dark Black part End -->   
+        </div>
+        <!-- Banner End -->
+    </header>
+    <main>
+        <!-- Hockey Club Start -->
+        <div class="container mx-auto px-5 lg:px-24 text-center">
+            <h3 class="text-4xl font-extrabold">Professional Hockeys Club</h3>
+            <p class="text-base font-medium">Hockey's and it's Members are committed to providing a clear and engaging pathway for players and parents who are eager to embark on this adventure together.</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+                <div>
+                    <div class="mt-6 mb-4 text-3xl font-extrabold radial-progress text-red-400" style="--value:87;" role="progressbar">87%</div>
+                    <h3 class="text-xl font-semibold">Player Facility</h3>
+                    <p>Hockey is a fun, family-friendly activity</p>
+                </div>
+                <div>
+                    <div class="mt-6 mb-4 text-3xl font-extrabold radial-progress text-green-400" style="--value:95;" role="progressbar">95%</div>
+                    <h3 class="text-xl font-semibold">Player Facility</h3>
+                    <p>Hockey is a fun, family-friendly activity</p>
+                </div>
+                <div>
+                    <div class="mt-6 mb-4 text-3xl font-extrabold radial-progress text-yellow-500" style="--value:90;" role="progressbar">90%</div>
+                    <h3 class="text-xl font-semibold">Player Facility</h3>
+                    <p>Hockey is a fun, family-friendly activity</p>
+                </div>
+                <div>
+                    <div class="mt-6 mb-4 text-3xl font-extrabold radial-progress text-blue-500" style="--value:80;" role="progressbar">80%</div>
+                    <h3 class="text-xl font-semibold">Player Facility</h3>
+                    <p>Hockey is a fun, family-friendly activity</p>
+                </div>
+                
+            </div>
+        </div>
+
+    </main>
+    <footer></footer>
+
+</body>
+
+</html>
